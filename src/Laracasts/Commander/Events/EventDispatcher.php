@@ -2,7 +2,7 @@
 
 use Laracasts\Commander\Events\Contracts\Dispatcher as DispatcherInterface;
 use Illuminate\Events\Dispatcher;
-use Illuminate\Log\Writer;
+use Illuminate\Log\Logger as Writer;
 
 class EventDispatcher implements DispatcherInterface {
 
